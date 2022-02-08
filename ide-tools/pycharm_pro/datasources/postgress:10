@@ -1,0 +1,5 @@
+#DataSourceSettings#
+#LocalDataSource: postgres:10-alpine local container
+#BEGIN#
+<data-source source="LOCAL" name="postgres:10-alpine local container" uuid="8ded4f97-269f-4cb9-9f9a-af8487986163"><database-info product="PostgreSQL" version="10.18" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="10.18" exact-driver-version="42.2"><identifier-quote-string>&quot;</identifier-quote-string></database-info><case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/><driver-ref>postgresql</driver-ref><synchronize>true</synchronize><jdbc-driver>org.postgresql.Driver</jdbc-driver><jdbc-url>jdbc:postgresql://localhost:15432/superset</jdbc-url><secret-storage>master_key</secret-storage><user-name>superset</user-name><schema-mapping><introspection-scope><node negative="1"><node kind="database" qname="@"><node kind="schema" qname="@"/></node><node kind="database" qname="superset"><node kind="schema" qname="public"/></node></node></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
+#END#
